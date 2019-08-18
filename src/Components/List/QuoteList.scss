@@ -1,0 +1,12 @@
+.quote-card-grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.quote-list {
+    img {
+        margin: 0 auto;
+        grid-column: 1 / -1;
+    }
+}

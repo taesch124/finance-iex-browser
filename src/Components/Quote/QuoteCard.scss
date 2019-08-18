@@ -1,0 +1,21 @@
+.quote-card {
+    margin: .5rem;
+    border: 1px solid black;
+    border-radius: .25rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.quote-percent-change {
+    font-size: .8rem;
+
+    &.up {
+        color: rgb(125, 189, 125);
+    }
+
+    &.down {
+        color: rgb(194, 115, 115);
+    }
+}
